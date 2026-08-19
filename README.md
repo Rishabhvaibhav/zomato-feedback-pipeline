@@ -78,7 +78,7 @@ flowchart LR
 ### End-to-end pipeline flow
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Run main.py --pipeline] --> B[Collectors run in parallel]
     B --> C[Raw JSON by source and date]
     C --> D{Validate required fields}
