@@ -60,21 +60,43 @@ Most "scrape and chart" scripts answer a question for a single day. This pipelin
 ## 🏗️ Architecture
 
 ```mermaid
----
 config:
-  layout: elk
-  theme: neo
+  layout: fixed
+  theme: default
+  look: handDrawn
+  fontFamily: '''Open Sans Variable'', sans-serif'
+  themeVariables:
+    fontFamily: '''Open Sans Variable'', sans-serif'
 ---
 flowchart LR
-    S1[Google News] & S2[Google Play] & S3[Trustpilot] & S4[India Reddit] --> C[Parallel collectors]
-    C --> R[data/raw/source/date JSON]
-    R --> V{Validation}
-    V -->|pass| DB[(SQLite database)]
-    V -->|fail| STOP[Stop — keep last good dataset]
-    DB --> L[Source ↔ content join]
-    L --> RULE[Rule-based labels]
-    RULE --> A[Year-wise analysis notebook]
-    A --> O[CSV tables + interactive Plotly charts]
+    S1["Google News"] --> C["Parallel collectors"]
+    S2["Google Play"] --> C
+    S3["Trustpilot"] --> C
+    S4["India Reddit"] --> C
+    C --> R["data/raw/source/date JSON"]
+    R --> V{"Validation"}
+    V -- pass --> DB[("SQLite database")]
+    V -- fail --> STOP["Stop — keep last good dataset"]
+    DB --> L["Source ↔ content join"]
+    L --> RULE["Rule-based labels"]
+    RULE --> A["Year-wise analysis notebook"]
+    A --> O["CSV tables + interactive Plotly charts"]
+
+    style S1 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style C stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style S2 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style S3 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style S4 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style R stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style V stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style DB stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style STOP stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style L stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style RULE stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style A stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    style O stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
+    linkStyle 0 stroke:#ffffff,fill:none
+    linkStyle 1 stroke:#ffffff
 ```
 
 ### End-to-end pipeline flow
