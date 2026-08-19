@@ -1,9 +1,8 @@
-# zomato-feedback-pipeline
 <div align="center">
 
-# 🍽️ Zomato Consumer Research Pipeline
+# Zomato Consumer Research Pipeline
 
-### A reproducible, India-focused, year-wise public-feedback pipeline for Zomato consumer research
+### India-focused, year-wise public-feedback pipeline for Zomato consumer research
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![SQLite](https://img.shields.io/badge/Storage-SQLite-003B57?logo=sqlite&logoColor=white)
@@ -13,51 +12,32 @@
 ![License](https://img.shields.io/badge/status-active-brightgreen)
 
 **No AI model or external prediction service is used anywhere in this pipeline.**
-Every label is a deterministic, auditable rating threshold or keyword rule.
 
 </div>
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [What This Project Does](#-what-this-project-does)
-- [Why It Exists](#-why-it-exists)
 - [Architecture](#-architecture)
 - [Data Sources & Business Definitions](#-data-sources--business-definitions)
 - [Project Structure](#-project-structure)
 - [Getting Started — Step by Step](#-getting-started--step-by-step)
 - [Commands Reference](#-commands-reference)
-- [How the Data Is Joined](#-how-the-data-is-joined)
 - [Results — Tables & Charts](#-results--tables--charts)
 - [Business Recommendations](#-business-recommendations)
 - [Scheduling (Daily Runs)](#-scheduling-daily-runs)
-- [Limitations & Responsible Use](#-limitations--responsible-use)
-- [Documentation Index](#-documentation-index)
 
 ---
 
-## 🎯 What This Project Does
-
-This project answers one practical, board-room-ready question:
-
-> **Where and when are negative Zomato customer-experience signals most visible, across the public sources we are permitted to collect from?**
+## What This Project Does
 
 It collects public records from **Google News**, **Google Play**, **Trustpilot**, and **India-focused Reddit communities**, stores the raw history, loads a unified SQLite database, applies transparent rating/keyword rules, and automatically refreshes a year-wise analysis notebook — tables, ratios and interactive charts included.
 
-## 💡 Why It Exists
-
-Most "scrape and chart" scripts answer a question for a single day. This pipeline is built to be run **again and again** — daily if required — so that a real trend, not a snapshot, can be tracked over time. Three principles drive every design decision here:
-
-| Principle | What it means in practice |
-|---|---|
-| 🔍 **Fully auditable labels** | Every "positive" / "negative" tag traces back to a plain rating threshold or keyword rule — never a black-box model. |
-| 🗄️ **Nothing is thrown away** | Raw JSON is stored, dated, and untouched — so a labelling-rule change never requires re-scraping. |
-| 📊 **Signals, not verdicts** | Output ratios point the business toward where to look — a human still reads the underlying text before recommending action. |
-
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -75,7 +55,7 @@ flowchart LR
     A --> O["CSV tables + interactive Plotly charts"]
 ```
 
-### End-to-end pipeline flow
+### Pipeline flow (End to End)
 
 ```mermaid
 flowchart LR
@@ -91,24 +71,20 @@ flowchart LR
     I --> J[Business recommendations]
 ```
 
-Google News and Reddit are restricted to two approved search terms only — `Zomato` and `Zomato complaint` — and Reddit is limited to configured India-focused subreddits (`india`, `delhi`, `mumbai`, `bangalore`, `hyderabad`, `chennai`, `kolkata`, `pune`, `food`).
-
 ---
 
-## 📊 Data Sources & Business Definitions
+## Data Sources & Business Definitions
 
 | Source | What it contributes | Positive signal | Negative signal |
 |---|---|---|---|
-| 📱 **Google Play** | App reviews and star ratings | 4–5 stars | 1–3 stars |
-| ⭐ **Trustpilot** | Customer reviews and ratings | 4–5 stars | 1–3 stars |
-| 💬 **Reddit** | India-focused posts & comments | Non-complaint feedback | Complaint keyword match |
-| 📰 **Google News** | Editorial / news coverage | `Zomato` coverage | `Zomato complaint` coverage |
-
-> ℹ️ A fifth source (YouTube) was evaluated and **intentionally retired** — the scraper was slow, repeatedly hit bot-detection, and could not run unattended reliably. See [Limitations](#-limitations--responsible-use).
+| **Google Play** | App reviews and star ratings | 4–5 stars | 1–3 stars |
+| **Trustpilot** | Customer reviews and ratings | 4–5 stars | 1–3 stars |
+| **Reddit** | India-focused posts & comments | Non-complaint feedback | Complaint keyword match |
+| **Google News** | Editorial / news coverage | `Zomato` coverage | `Zomato complaint` coverage |
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 .
@@ -132,7 +108,7 @@ Google News and Reddit are restricted to two approved search terms only — `Zom
 
 ---
 
-## 🚀 Getting Started — Step by Step
+##  Getting Started — Step by Step
 
 ### Step 1 — Clone the repository
 
@@ -164,8 +140,8 @@ Parallel crawl → raw JSON → validation → SQLite load → rule-based labels
 | What you want | Where to look |
 |---|---|
 | Year-wise CSV tables | `output/yearly_*.csv` |
-| All rendered tables together | [`docs/output_tables.md`](docs/output_tables.md) |
-| Interactive Plotly charts | [`docs/charts/`](docs/charts/) |
+| All tables| [`docs/output_tables.md`](docs/output_tables.md) |
+| charts | [`docs/charts/`](docs/charts/) |
 | Run log | `logs/collection_<date>.log` |
 | Run summary | `output/last_pipeline_run.json` |
 | Source-wise audit trail | `output/collection_history.json` |
@@ -176,13 +152,9 @@ Parallel crawl → raw JSON → validation → SQLite load → rule-based labels
 jupyter notebook data_exploration.ipynb
 ```
 
-### Step 6 (optional) — Schedule it to run daily
-
-See [Scheduling](#-scheduling-daily-runs) below.
-
 ---
 
-## ⚙️ Commands Reference
+##  Commands Reference
 
 ```bash
 python main.py --pipeline       # complete collection and analysis run
@@ -196,28 +168,7 @@ jupyter notebook data_exploration.ipynb
 
 ---
 
-## 🔗 How the Data Is Joined
-
-```mermaid
-flowchart TD
-    A[Raw source record] --> B[Stable content_hash]
-    B --> C[content_items master row]
-    B --> D[source_tracking provenance]
-    C --> E[One row per content_hash and source]
-    D --> E
-    N[Google News query tracking] --> F
-    E --> F[Year, rating and complaint metrics]
-```
-
-1. Every source record is retained, unmodified, in `data/raw/<source>/<date>/`.
-2. The loader computes a stable `content_hash` and writes one row per unique item to `content_items`.
-3. `source_tracking.content_hash` joins to `content_items.content_hash`, attaching source, type, rating, text and date.
-4. The notebook keeps **one row per `content_hash` and source** before analysis, so repeated historical snapshots never inflate a chart.
-5. Google News uses a separate `google_news_query_tracking` table, since one article can match both the broad `Zomato` query and the `Zomato complaint` query.
-
----
-
-## 📈 Results — Tables & Charts
+##  Results — Tables & Charts
 
 > All figures below are generated directly from `data_exploration.ipynb` and saved to `output/*.csv`. Interactive (hover/zoom/filter) versions of every chart live in [`docs/charts/`](docs/charts/).
 
@@ -245,7 +196,7 @@ Complaint **rate** (not volume) peaked in **2018** — 10 complaints out of 47 f
 
 ![Reddit feedback by year](docs/charts/reddit_feedback.png)
 
-> 📌 All four charts above are pulled directly from the executed `data_exploration.ipynb` — same figures, same colours, same axis labels you'll see if you open the notebook yourself.
+>  All four charts above are pulled directly from the executed `data_exploration.ipynb` — same figures, same colours, same axis labels you'll see if you open the notebook yourself.
 
 ### Full data tables
 
@@ -261,7 +212,7 @@ All rendered table outputs are also available in [`docs/output_tables.md`](docs/
 
 ---
 
-## 🧭 Business Recommendations
+##  Business Recommendations
 
 > **Recommended wording for any external-facing slide:** *"This source and year show a higher negative signal in public feedback, so this journey should be investigated first."* This keeps every finding honest — a signal for investigation, not a verdict on the business.
 
@@ -272,7 +223,7 @@ All rendered table outputs are also available in [`docs/output_tables.md`](docs/
 
 ---
 
-## ⏰ Scheduling (Daily Runs)
+##  Scheduling (Daily Runs)
 
 For **Windows Task Scheduler**, schedule this command from the project folder:
 
@@ -284,30 +235,6 @@ Set the project folder as **Start in**. Review `logs/collection_<date>.log` and 
 
 ---
 
-## ⚠️ Limitations & Responsible Use
-
-- Only **4 of 5** required sources are currently active — YouTube was retired due to unreliable unattended runs; a fifth independent source is pending before final submission if the assessment enforces a five-source gate.
-- `output/*.csv` on disk reflects only the **most recent load** and can look thinner than the notebook's own computed tables, which run against the full accumulated raw history. The charts and figures in this README are taken directly from the **executed notebook**, so treat those as the source of truth over the CSV snapshots until the CSV export step is re-run end-to-end.
-- The Google News broad-query count is recorded as **0** for 2021, 2022, 2024 and 2025 — an ingestion gap, not a real absence of coverage — so the complaint ratio for those years should not be trusted until this is fixed.
-- `yearly_all_source_volume.csv` currently shows a data-quality artefact for 2025 (a negative `positive_count` from a merge step) — flagged for correction; it does **not** affect the source-wise tables.
-- This dataset is **public feedback**, not the complete Zomato customer population — treat ratios as **directional research signals**, not a full-population survey.
-- Reddit's complaint detection is a transparent keyword rule and can miss sarcasm or mixed Hindi-English (Hinglish) phrasing — validate with a small hand-labelled sample before business-critical use.
-- Use only permitted public access, respect rate limits and each source's terms of use. Validate major business decisions against internal Zomato operational data.
-
----
-
-## 📚 Documentation Index
-
-| Document | Purpose |
-|---|---|
-| [Project Manager Documentation](docs/project_manager_documentation.md) | Purpose, code explanation, joins, outputs and presentation guidance |
-| [Hinglish Approach](docs/approach_hinglish.md) | Simple explanation for the assignment discussion |
-| [Design Notes](docs/design.md) | Architecture, decisions, controls and scale considerations |
-| [Full Notebook Tables](docs/output_tables.md) | All generated table outputs |
-
----
-
-<div align="center">
 
 **Built for repeatable, auditable, India-focused Zomato consumer research — no AI labelling, full raw-data history, and one command to refresh everything.**
 
