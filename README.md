@@ -60,6 +60,11 @@ Most "scrape and chart" scripts answer a question for a single day. This pipelin
 ## 🏗️ Architecture
 
 ```mermaid
+---
+config:
+  layout: elk
+  theme: neo
+---
 flowchart LR
     S1[Google News] & S2[Google Play] & S3[Trustpilot] & S4[India Reddit] --> C[Parallel collectors]
     C --> R[data/raw/source/date JSON]
