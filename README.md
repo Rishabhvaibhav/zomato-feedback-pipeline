@@ -82,20 +82,7 @@ flowchart LR
     RULE --> A["Year-wise analysis notebook"]
     A --> O["CSV tables + interactive Plotly charts"]
 
-    style S1 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style C stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style S2 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style S3 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style S4 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style R stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style V stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style DB stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style STOP stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style L stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style RULE stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style A stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    style O stroke:#ffffff,stroke-width:4px,stroke-dasharray: 0,fill:#ffb9b9
-    linkStyle 0 stroke:#ffffff,fill:none
+    linkStyle 0 stroke:#ffffff
     linkStyle 1 stroke:#ffffff
 ```
 
