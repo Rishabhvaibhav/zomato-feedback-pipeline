@@ -1,0 +1,356 @@
+2026-08-18 20:38:06,885 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:38:07,764 | INFO     | __main__ |   google_news            479 rows
+2026-08-18 20:38:07,764 | INFO     | __main__ |   google_news_query_tracking 485 rows
+2026-08-18 20:38:07,764 | INFO     | __main__ |   trustpilot             84 rows
+2026-08-18 20:38:07,764 | INFO     | __main__ |   reddit_posts           1,289 rows
+2026-08-18 20:38:07,764 | INFO     | __main__ |   reddit_comments        2,355 rows
+2026-08-18 20:38:07,764 | INFO     | __main__ |   google_play            5,567 rows
+2026-08-18 20:38:07,764 | INFO     | __main__ |   content_items          9,917 rows
+2026-08-18 20:38:07,764 | INFO     | __main__ |   source_tracking        9,917 rows
+2026-08-18 20:38:07,765 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:38:09,917 | INFO     | __main__ | Enrichment complete — {'items_seen': 9917, 'items_enriched': 9917, 'model_version': 'rules-v1', 'sample_rows': 80, 'sample_path': 'C:\\Users\\rvcyb\\OneDrive\\Documents\\GPT_CODEX\\zomato_raw_collection\\output\\enrichment_labels_template.csv'}
+2026-08-18 20:38:10,045 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:38:10,806 | INFO     | __main__ |   google_news            479 rows
+2026-08-18 20:38:10,806 | INFO     | __main__ |   google_news_query_tracking 485 rows
+2026-08-18 20:38:10,806 | INFO     | __main__ |   trustpilot             84 rows
+2026-08-18 20:38:10,806 | INFO     | __main__ |   reddit_posts           1,289 rows
+2026-08-18 20:38:10,806 | INFO     | __main__ |   reddit_comments        2,355 rows
+2026-08-18 20:38:10,806 | INFO     | __main__ |   google_play            5,567 rows
+2026-08-18 20:38:10,806 | INFO     | __main__ |   content_items          9,917 rows
+2026-08-18 20:38:10,806 | INFO     | __main__ |   source_tracking        9,917 rows
+2026-08-18 20:38:10,810 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:38:10,811 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:38:11,544 | INFO     | __main__ |   google_news            479 rows
+2026-08-18 20:38:11,544 | INFO     | __main__ |   google_news_query_tracking 485 rows
+2026-08-18 20:38:11,544 | INFO     | __main__ |   trustpilot             84 rows
+2026-08-18 20:38:11,544 | INFO     | __main__ |   reddit_posts           1,289 rows
+2026-08-18 20:38:11,544 | INFO     | __main__ |   reddit_comments        2,355 rows
+2026-08-18 20:38:11,544 | INFO     | __main__ |   google_play            5,567 rows
+2026-08-18 20:38:11,545 | INFO     | __main__ |   content_items          9,917 rows
+2026-08-18 20:38:11,545 | INFO     | __main__ |   source_tracking        9,917 rows
+2026-08-18 20:38:11,549 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:38:11,550 | INFO     | __main__ | Idempotency check: {'first_load_new_content_items': 0, 'second_load_new_content_items': 0, 'passed': True}
+2026-08-18 20:38:59,841 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:39:00,763 | INFO     | __main__ |   google_news            479 rows
+2026-08-18 20:39:00,763 | INFO     | __main__ |   google_news_query_tracking 485 rows
+2026-08-18 20:39:00,764 | INFO     | __main__ |   trustpilot             84 rows
+2026-08-18 20:39:00,764 | INFO     | __main__ |   reddit_posts           1,289 rows
+2026-08-18 20:39:00,764 | INFO     | __main__ |   reddit_comments        2,355 rows
+2026-08-18 20:39:00,764 | INFO     | __main__ |   google_play            5,567 rows
+2026-08-18 20:39:00,764 | INFO     | __main__ |   content_items          9,917 rows
+2026-08-18 20:39:00,764 | INFO     | __main__ |   source_tracking        9,917 rows
+2026-08-18 20:39:00,770 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:39:00,771 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:39:01,544 | INFO     | __main__ |   google_news            479 rows
+2026-08-18 20:39:01,544 | INFO     | __main__ |   google_news_query_tracking 485 rows
+2026-08-18 20:39:01,545 | INFO     | __main__ |   trustpilot             84 rows
+2026-08-18 20:39:01,545 | INFO     | __main__ |   reddit_posts           1,289 rows
+2026-08-18 20:39:01,545 | INFO     | __main__ |   reddit_comments        2,355 rows
+2026-08-18 20:39:01,545 | INFO     | __main__ |   google_play            5,567 rows
+2026-08-18 20:39:01,545 | INFO     | __main__ |   content_items          9,917 rows
+2026-08-18 20:39:01,545 | INFO     | __main__ |   source_tracking        9,917 rows
+2026-08-18 20:39:01,548 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 20:39:01,549 | INFO     | __main__ | Idempotency check: {'first_load_new_content_items': 0, 'second_load_new_content_items': 0, 'passed': True}
+2026-08-18 21:29:05,375 | INFO     | scripts.google_news_collector | === Starting GoogleNews ===
+2026-08-18 21:29:05,459 | INFO     | scripts.base_collector | GoogleNews: 892 historical records loaded for global deduplication
+2026-08-18 21:29:05,464 | INFO     | scripts.google_news_collector | Google News query: 'Zomato'
+2026-08-18 21:29:08,002 | INFO     | scripts.google_news_collector | Google News query: 'Zomato customer'
+2026-08-18 21:29:08,666 | INFO     | scripts.google_news_collector | Google News query: 'Zomato delivery'
+2026-08-18 21:29:09,472 | INFO     | scripts.google_news_collector | Google News query: 'Zomato complaint'
+2026-08-18 21:29:10,291 | INFO     | scripts.google_news_collector | Google News query: 'Zomato business'
+2026-08-18 21:29:11,121 | INFO     | scripts.google_news_collector | Google News query: 'Zomato review'
+2026-08-18 21:29:11,870 | INFO     | utils.storage | Saved 453 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-18\articles.json
+2026-08-18 21:29:11,877 | INFO     | utils.storage | Saved 551 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-18\query_matches.json
+2026-08-18 21:29:11,877 | INFO     | scripts.base_collector | === GoogleNews finished | existing=892 new=2 total=894 errors=0 pages=6 ===
+2026-08-18 21:29:11,880 | INFO     | scripts.base_collector | === Starting Trustpilot ===
+2026-08-18 21:29:11,884 | INFO     | scripts.base_collector | Trustpilot: 153 historical records loaded for global deduplication
+2026-08-18 21:29:11,884 | INFO     | scripts.trustpilot_collector | Trustpilot page 1: https://www.trustpilot.com/review/zomato.in?page=1
+2026-08-18 21:29:12,524 | WARNING  | scripts.trustpilot_collector | Trustpilot page 1 failed: 403 Client Error: Forbidden for url: https://www.trustpilot.com/review/zomato.in?page=1
+2026-08-18 21:29:12,524 | WARNING  | scripts.trustpilot_collector | HTTP 403 Forbidden received from Trustpilot — bot protection active, attempting fallback...
+2026-08-18 21:29:19,619 | INFO     | utils.storage | Saved 82 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\trustpilot\2026-08-18\reviews.json
+2026-08-18 21:29:19,619 | INFO     | scripts.base_collector | === Trustpilot finished | existing=153 new=1 total=154 errors=0 pages=0 ===
+2026-08-18 21:29:19,622 | INFO     | scripts.reddit_collector | === Starting Reddit ===
+2026-08-18 21:29:19,694 | INFO     | scripts.base_collector | Reddit: 2355 historical records loaded for global deduplication
+2026-08-18 21:29:19,695 | INFO     | scripts.reddit_collector | Reddit global search: 'Zomato'
+2026-08-18 21:29:20,410 | WARNING  | scripts.reddit_collector | Direct Reddit search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Zomato&limit=1000&sort=new&t=all), trying RSS search fallback...
+2026-08-18 21:29:22,540 | INFO     | scripts.reddit_collector | Reddit global search: 'Zomato delivery'
+2026-08-18 21:29:23,397 | WARNING  | scripts.reddit_collector | Direct Reddit search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Zomato+delivery&limit=1000&sort=new&t=all), trying RSS search fallback...
+2026-08-18 21:29:24,817 | INFO     | scripts.reddit_collector | Reddit global search: 'Zomato complaint'
+2026-08-18 21:29:25,516 | WARNING  | scripts.reddit_collector | Direct Reddit search for 'Zomato complaint' failed (403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Zomato+complaint&limit=1000&sort=new&t=all), trying RSS search fallback...
+2026-08-18 21:29:26,982 | INFO     | scripts.reddit_collector | Reddit global search: 'Zomato customer service'
+2026-08-18 21:29:27,578 | WARNING  | scripts.reddit_collector | Direct Reddit search for 'Zomato customer service' failed (403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Zomato+customer+service&limit=1000&sort=new&t=all), trying RSS search fallback...
+2026-08-18 21:29:29,295 | INFO     | scripts.reddit_collector | Reddit global search: 'Zomato refund'
+2026-08-18 21:29:29,934 | WARNING  | scripts.reddit_collector | Direct Reddit search for 'Zomato refund' failed (403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=Zomato+refund&limit=1000&sort=new&t=all), trying RSS search fallback...
+2026-08-18 21:29:31,669 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato'
+2026-08-18 21:29:32,286 | WARNING  | scripts.reddit_collector | Subreddit r/india search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/india/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:33,955 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato delivery'
+2026-08-18 21:29:34,620 | WARNING  | scripts.reddit_collector | Subreddit r/india search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/india/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:36,181 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato'
+2026-08-18 21:29:36,910 | WARNING  | scripts.reddit_collector | Subreddit r/delhi search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/delhi/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:38,341 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato delivery'
+2026-08-18 21:29:38,945 | WARNING  | scripts.reddit_collector | Subreddit r/delhi search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/delhi/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:40,766 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato'
+2026-08-18 21:29:41,402 | WARNING  | scripts.reddit_collector | Subreddit r/mumbai search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/mumbai/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:42,814 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato delivery'
+2026-08-18 21:29:43,469 | WARNING  | scripts.reddit_collector | Subreddit r/mumbai search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/mumbai/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:45,169 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato'
+2026-08-18 21:29:46,028 | WARNING  | scripts.reddit_collector | Subreddit r/bangalore search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/bangalore/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:47,422 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato delivery'
+2026-08-18 21:29:48,044 | WARNING  | scripts.reddit_collector | Subreddit r/bangalore search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/bangalore/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:49,778 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato'
+2026-08-18 21:29:50,525 | WARNING  | scripts.reddit_collector | Subreddit r/hyderabad search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/hyderabad/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:51,837 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato delivery'
+2026-08-18 21:29:52,587 | WARNING  | scripts.reddit_collector | Subreddit r/hyderabad search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/hyderabad/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:53,885 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato'
+2026-08-18 21:29:54,638 | WARNING  | scripts.reddit_collector | Subreddit r/chennai search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/chennai/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:56,229 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato delivery'
+2026-08-18 21:29:56,963 | WARNING  | scripts.reddit_collector | Subreddit r/chennai search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/chennai/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:29:58,174 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato'
+2026-08-18 21:29:58,900 | WARNING  | scripts.reddit_collector | Subreddit r/kolkata search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/kolkata/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:30:00,528 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato delivery'
+2026-08-18 21:30:01,166 | WARNING  | scripts.reddit_collector | Subreddit r/kolkata search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/kolkata/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:30:02,399 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato'
+2026-08-18 21:30:03,209 | WARNING  | scripts.reddit_collector | Subreddit r/pune search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/pune/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:30:04,624 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato delivery'
+2026-08-18 21:30:05,269 | WARNING  | scripts.reddit_collector | Subreddit r/pune search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/pune/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:30:06,571 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato'
+2026-08-18 21:30:07,414 | WARNING  | scripts.reddit_collector | Subreddit r/food search for 'Zomato' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/food/search.json?q=Zomato&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:30:08,106 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato delivery'
+2026-08-18 21:30:09,349 | WARNING  | scripts.reddit_collector | Subreddit r/food search for 'Zomato delivery' failed (403 Client Error: Blocked for url: https://www.reddit.com/r/food/search.json?q=Zomato+delivery&restrict_sr=1&limit=25&sort=new&t=all), trying RSS fallback...
+2026-08-18 21:30:10,008 | INFO     | utils.storage | Saved 1161 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-18\posts.json
+2026-08-18 21:30:10,061 | INFO     | utils.storage | Saved 1161 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-18\comments.json
+2026-08-18 21:30:10,062 | INFO     | scripts.reddit_collector | Reddit comments: existing=2355 new=57 total=2412
+2026-08-18 21:30:10,062 | INFO     | scripts.base_collector | === Reddit finished | existing=2355 new=57 total=2412 errors=0 pages=0 ===
+2026-08-18 21:30:10,065 | INFO     | scripts.base_collector | === Starting GooglePlay ===
+2026-08-18 21:30:10,245 | INFO     | scripts.base_collector | GooglePlay: 10020 historical records loaded for global deduplication
+2026-08-18 21:30:13,184 | INFO     | utils.storage | Saved 5060 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_play\2026-08-18\reviews.json
+2026-08-18 21:30:13,184 | INFO     | scripts.base_collector | === GooglePlay finished | existing=10020 new=60 total=10080 errors=0 pages=1 ===
+2026-08-18 22:22:36,932 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:22:37,958 | INFO     | __main__ |   google_news            481 rows
+2026-08-18 22:22:37,958 | INFO     | __main__ |   google_news_query_tracking 609 rows
+2026-08-18 22:22:37,958 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:22:37,958 | INFO     | __main__ |   reddit_posts           1,346 rows
+2026-08-18 22:22:37,958 | INFO     | __main__ |   reddit_comments        2,412 rows
+2026-08-18 22:22:37,958 | INFO     | __main__ |   google_play            5,627 rows
+2026-08-18 22:22:37,958 | INFO     | __main__ |   content_items          10,094 rows
+2026-08-18 22:22:37,958 | INFO     | __main__ |   source_tracking        10,094 rows
+2026-08-18 22:22:37,959 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:23:21,333 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:23:21,872 | INFO     | __main__ |   google_news            481 rows
+2026-08-18 22:23:21,872 | INFO     | __main__ |   google_news_query_tracking 205 rows
+2026-08-18 22:23:21,872 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:23:21,872 | INFO     | __main__ |   reddit_posts           1,346 rows
+2026-08-18 22:23:21,872 | INFO     | __main__ |   reddit_comments        2,412 rows
+2026-08-18 22:23:21,872 | INFO     | __main__ |   google_play            5,627 rows
+2026-08-18 22:23:21,872 | INFO     | __main__ |   content_items          10,094 rows
+2026-08-18 22:23:21,872 | INFO     | __main__ |   source_tracking        10,094 rows
+2026-08-18 22:23:21,873 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:23:55,933 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:23:56,426 | INFO     | __main__ |   google_news            481 rows
+2026-08-18 22:23:56,426 | INFO     | __main__ |   google_news_query_tracking 205 rows
+2026-08-18 22:23:56,426 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:23:56,426 | INFO     | __main__ |   reddit_posts           1,346 rows
+2026-08-18 22:23:56,426 | INFO     | __main__ |   reddit_comments        2,412 rows
+2026-08-18 22:23:56,426 | INFO     | __main__ |   google_play            5,627 rows
+2026-08-18 22:23:56,426 | INFO     | __main__ |   content_items          10,094 rows
+2026-08-18 22:23:56,426 | INFO     | __main__ |   source_tracking        10,094 rows
+2026-08-18 22:23:56,433 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:23:56,433 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:23:56,910 | INFO     | __main__ |   google_news            481 rows
+2026-08-18 22:23:56,910 | INFO     | __main__ |   google_news_query_tracking 205 rows
+2026-08-18 22:23:56,910 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:23:56,910 | INFO     | __main__ |   reddit_posts           1,346 rows
+2026-08-18 22:23:56,910 | INFO     | __main__ |   reddit_comments        2,412 rows
+2026-08-18 22:23:56,910 | INFO     | __main__ |   google_play            5,627 rows
+2026-08-18 22:23:56,910 | INFO     | __main__ |   content_items          10,094 rows
+2026-08-18 22:23:56,910 | INFO     | __main__ |   source_tracking        10,094 rows
+2026-08-18 22:23:56,917 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:23:56,919 | INFO     | __main__ | Idempotency check: {'first_load_new_content_items': 0, 'second_load_new_content_items': 0, 'passed': True}
+2026-08-18 22:44:14,744 | INFO     | scripts.google_news_collector | === Starting GoogleNews ===
+2026-08-18 22:44:14,771 | INFO     | scripts.base_collector | GoogleNews: 894 historical records loaded for global deduplication
+2026-08-18 22:44:14,772 | INFO     | scripts.google_news_collector | Google News query: 'Zomato'
+2026-08-18 22:44:16,060 | INFO     | scripts.google_news_collector | Google News query: 'Zomato complaint'
+2026-08-18 22:44:16,613 | INFO     | utils.storage | Saved 455 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-18\articles.json
+2026-08-18 22:44:16,621 | INFO     | utils.storage | Saved 555 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-18\query_matches.json
+2026-08-18 22:44:16,625 | INFO     | scripts.base_collector | === GoogleNews finished | existing=894 new=2 total=896 errors=0 pages=2 ===
+2026-08-18 22:44:16,627 | INFO     | scripts.base_collector | === Starting Trustpilot ===
+2026-08-18 22:44:16,632 | INFO     | scripts.base_collector | Trustpilot: 154 historical records loaded for global deduplication
+2026-08-18 22:44:17,615 | INFO     | utils.storage | Saved 82 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\trustpilot\2026-08-18\reviews.json
+2026-08-18 22:44:17,615 | INFO     | scripts.base_collector | === Trustpilot finished | existing=154 new=0 total=154 errors=0 pages=0 ===
+2026-08-18 22:44:17,617 | INFO     | scripts.reddit_collector | === Starting Reddit ===
+2026-08-18 22:44:17,670 | INFO     | scripts.base_collector | Reddit: 2412 historical records loaded for global deduplication
+2026-08-18 22:44:17,671 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato'
+2026-08-18 22:44:19,084 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato complaint'
+2026-08-18 22:44:19,421 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/india/search.rss?q=Zomato+complaint&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:21,682 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato'
+2026-08-18 22:44:21,982 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/delhi/search.rss?q=Zomato&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:23,831 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato complaint'
+2026-08-18 22:44:24,131 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/delhi/search.rss?q=Zomato+complaint&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:25,641 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato'
+2026-08-18 22:44:26,107 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/mumbai/search.rss?q=Zomato&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:27,926 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato complaint'
+2026-08-18 22:44:28,227 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/mumbai/search.rss?q=Zomato+complaint&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:29,765 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato'
+2026-08-18 22:44:30,275 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bangalore/search.rss?q=Zomato&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:31,815 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato complaint'
+2026-08-18 22:44:32,216 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bangalore/search.rss?q=Zomato+complaint&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:34,069 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato'
+2026-08-18 22:44:34,371 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/hyderabad/search.rss?q=Zomato&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:36,014 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato complaint'
+2026-08-18 22:44:36,355 | ERROR    | utils.retry | Max retries (1) exceeded for fetch: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/hyderabad/search.rss?q=Zomato+complaint&restrict_sr=1&sort=new&t=all
+2026-08-18 22:44:36,449 | INFO     | scripts.base_collector | === Reddit finished | existing=2412 new=0 total=2412 errors=0 pages=5 ===
+2026-08-18 22:45:52,480 | INFO     | scripts.reddit_collector | === Starting Reddit ===
+2026-08-18 22:45:52,553 | INFO     | scripts.base_collector | Reddit: 2412 historical records loaded for global deduplication
+2026-08-18 22:45:52,554 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato'
+2026-08-18 22:45:53,972 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato complaint'
+2026-08-18 22:45:54,831 | WARNING  | scripts.reddit_collector | Reddit RSS rate limit reached (429); switching to Google News RSS fallback. Retry-After=later
+2026-08-18 22:45:56,973 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato'
+2026-08-18 22:45:58,660 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato complaint'
+2026-08-18 22:46:00,669 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato'
+2026-08-18 22:46:02,582 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato complaint'
+2026-08-18 22:46:04,574 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato'
+2026-08-18 22:46:06,626 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato complaint'
+2026-08-18 22:46:08,575 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato'
+2026-08-18 22:46:10,632 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato complaint'
+2026-08-18 22:46:13,707 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato'
+2026-08-18 22:46:15,853 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato complaint'
+2026-08-18 22:46:17,066 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato'
+2026-08-18 22:46:19,541 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato complaint'
+2026-08-18 22:46:20,972 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato'
+2026-08-18 22:46:23,635 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato complaint'
+2026-08-18 22:46:25,254 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato'
+2026-08-18 22:46:27,115 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato complaint'
+2026-08-18 22:46:28,913 | INFO     | utils.storage | Saved 1641 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-18\posts.json
+2026-08-18 22:46:28,987 | INFO     | utils.storage | Saved 1616 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-18\comments.json
+2026-08-18 22:46:28,987 | INFO     | scripts.reddit_collector | Reddit comments: existing=2412 new=455 total=2867
+2026-08-18 22:46:28,987 | INFO     | scripts.base_collector | === Reddit finished | existing=2412 new=480 total=2892 errors=0 pages=9 ===
+2026-08-18 22:46:54,510 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:46:55,788 | INFO     | __main__ |   google_news            483 rows
+2026-08-18 22:46:55,789 | INFO     | __main__ |   google_news_query_tracking 207 rows
+2026-08-18 22:46:55,789 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:46:55,789 | INFO     | __main__ |   reddit_posts           1,826 rows
+2026-08-18 22:46:55,790 | INFO     | __main__ |   reddit_comments        2,867 rows
+2026-08-18 22:46:55,790 | INFO     | __main__ |   google_play            5,627 rows
+2026-08-18 22:46:55,790 | INFO     | __main__ |   content_items          11,031 rows
+2026-08-18 22:46:55,790 | INFO     | __main__ |   source_tracking        11,031 rows
+2026-08-18 22:46:55,791 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:46:55,915 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:46:56,836 | INFO     | __main__ |   google_news            483 rows
+2026-08-18 22:46:56,836 | INFO     | __main__ |   google_news_query_tracking 207 rows
+2026-08-18 22:46:56,836 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:46:56,836 | INFO     | __main__ |   reddit_posts           1,826 rows
+2026-08-18 22:46:56,836 | INFO     | __main__ |   reddit_comments        2,867 rows
+2026-08-18 22:46:56,836 | INFO     | __main__ |   google_play            5,627 rows
+2026-08-18 22:46:56,836 | INFO     | __main__ |   content_items          11,031 rows
+2026-08-18 22:46:56,836 | INFO     | __main__ |   source_tracking        11,031 rows
+2026-08-18 22:46:56,840 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:46:56,840 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:46:57,665 | INFO     | __main__ |   google_news            483 rows
+2026-08-18 22:46:57,665 | INFO     | __main__ |   google_news_query_tracking 207 rows
+2026-08-18 22:46:57,665 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:46:57,665 | INFO     | __main__ |   reddit_posts           1,826 rows
+2026-08-18 22:46:57,665 | INFO     | __main__ |   reddit_comments        2,867 rows
+2026-08-18 22:46:57,665 | INFO     | __main__ |   google_play            5,627 rows
+2026-08-18 22:46:57,666 | INFO     | __main__ |   content_items          11,031 rows
+2026-08-18 22:46:57,666 | INFO     | __main__ |   source_tracking        11,031 rows
+2026-08-18 22:46:57,669 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:46:57,671 | INFO     | __main__ | Idempotency check: {'first_load_new_content_items': 0, 'second_load_new_content_items': 0, 'passed': True}
+2026-08-18 22:48:21,623 | INFO     | scripts.google_news_collector | === Starting GoogleNews ===
+2026-08-18 22:48:21,680 | INFO     | scripts.base_collector | GoogleNews: 896 historical records loaded for global deduplication
+2026-08-18 22:48:21,682 | INFO     | scripts.google_news_collector | Google News query: 'Zomato'
+2026-08-18 22:48:23,044 | INFO     | scripts.google_news_collector | Google News query: 'Zomato complaint'
+2026-08-18 22:48:23,571 | INFO     | utils.storage | Saved 456 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-18\articles.json
+2026-08-18 22:48:23,582 | INFO     | utils.storage | Saved 559 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-18\query_matches.json
+2026-08-18 22:48:23,582 | INFO     | scripts.base_collector | === GoogleNews finished | existing=896 new=1 total=897 errors=0 pages=2 ===
+2026-08-18 22:48:23,585 | INFO     | scripts.base_collector | === Starting Trustpilot ===
+2026-08-18 22:48:23,590 | INFO     | scripts.base_collector | Trustpilot: 154 historical records loaded for global deduplication
+2026-08-18 22:48:24,554 | INFO     | utils.storage | Saved 82 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\trustpilot\2026-08-18\reviews.json
+2026-08-18 22:48:24,556 | INFO     | scripts.base_collector | === Trustpilot finished | existing=154 new=0 total=154 errors=0 pages=0 ===
+2026-08-18 22:48:24,559 | INFO     | scripts.reddit_collector | === Starting Reddit ===
+2026-08-18 22:48:24,681 | INFO     | scripts.base_collector | Reddit: 2892 historical records loaded for global deduplication
+2026-08-18 22:48:24,683 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato'
+2026-08-18 22:48:28,544 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato complaint'
+2026-08-18 22:48:29,047 | WARNING  | scripts.reddit_collector | Reddit RSS rate limit reached (429); switching to Google News RSS fallback. Retry-After=later
+2026-08-18 22:48:31,521 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato'
+2026-08-18 22:48:33,965 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato complaint'
+2026-08-18 22:48:35,609 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato'
+2026-08-18 22:48:38,063 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato complaint'
+2026-08-18 22:48:39,720 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato'
+2026-08-18 22:48:41,848 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato complaint'
+2026-08-18 22:48:43,693 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato'
+2026-08-18 22:48:45,762 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato complaint'
+2026-08-18 22:48:47,721 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato'
+2026-08-18 22:48:49,836 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato complaint'
+2026-08-18 22:48:51,165 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato'
+2026-08-18 22:48:54,036 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato complaint'
+2026-08-18 22:48:55,264 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato'
+2026-08-18 22:48:57,724 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato complaint'
+2026-08-18 22:48:59,382 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato'
+2026-08-18 22:49:01,139 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato complaint'
+2026-08-18 22:49:03,107 | INFO     | utils.storage | Saved 1665 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-18\posts.json
+2026-08-18 22:49:03,210 | INFO     | utils.storage | Saved 1640 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-18\comments.json
+2026-08-18 22:49:03,210 | INFO     | scripts.reddit_collector | Reddit comments: existing=2867 new=24 total=2891
+2026-08-18 22:49:03,210 | INFO     | scripts.base_collector | === Reddit finished | existing=2892 new=24 total=2916 errors=0 pages=5 ===
+2026-08-18 22:49:03,216 | INFO     | scripts.base_collector | === Starting GooglePlay ===
+2026-08-18 22:49:03,552 | INFO     | scripts.base_collector | GooglePlay: 10080 historical records loaded for global deduplication
+2026-08-18 22:49:31,158 | INFO     | utils.storage | Saved 49441 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_play\2026-08-18\reviews.json
+2026-08-18 22:49:31,161 | INFO     | scripts.base_collector | === GooglePlay finished | existing=10080 new=44381 total=54461 errors=0 pages=1 ===
+2026-08-18 22:57:50,943 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:57:55,414 | INFO     | __main__ |   google_news            484 rows
+2026-08-18 22:57:55,414 | INFO     | __main__ |   google_news_query_tracking 209 rows
+2026-08-18 22:57:55,414 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 22:57:55,414 | INFO     | __main__ |   reddit_posts           1,850 rows
+2026-08-18 22:57:55,414 | INFO     | __main__ |   reddit_comments        2,891 rows
+2026-08-18 22:57:55,414 | INFO     | __main__ |   google_play            50,008 rows
+2026-08-18 22:57:55,414 | INFO     | __main__ |   content_items          55,461 rows
+2026-08-18 22:57:55,414 | INFO     | __main__ |   source_tracking        55,461 rows
+2026-08-18 22:57:55,415 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 22:59:42,067 | INFO     | scripts.base_collector | === Starting GooglePlay ===
+2026-08-18 22:59:43,860 | INFO     | scripts.base_collector | GooglePlay: 54461 historical records loaded for global deduplication
+2026-08-18 23:00:09,706 | INFO     | utils.storage | Saved 49449 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_play\2026-08-18\reviews.json
+2026-08-18 23:00:09,707 | INFO     | scripts.base_collector | === GooglePlay finished | existing=54461 new=8 total=54469 errors=0 pages=1 ===
+2026-08-18 23:00:09,805 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 23:00:15,654 | INFO     | __main__ |   google_news            484 rows
+2026-08-18 23:00:15,655 | INFO     | __main__ |   google_news_query_tracking 209 rows
+2026-08-18 23:00:15,655 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 23:00:15,655 | INFO     | __main__ |   reddit_posts           1,850 rows
+2026-08-18 23:00:15,655 | INFO     | __main__ |   reddit_comments        2,891 rows
+2026-08-18 23:00:15,655 | INFO     | __main__ |   google_play            50,016 rows
+2026-08-18 23:00:15,655 | INFO     | __main__ |   content_items          55,469 rows
+2026-08-18 23:00:15,655 | INFO     | __main__ |   source_tracking        55,469 rows
+2026-08-18 23:00:15,656 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 23:00:48,985 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 23:00:53,928 | INFO     | __main__ |   google_news            484 rows
+2026-08-18 23:00:53,929 | INFO     | __main__ |   google_news_query_tracking 209 rows
+2026-08-18 23:00:53,929 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 23:00:53,929 | INFO     | __main__ |   reddit_posts           1,850 rows
+2026-08-18 23:00:53,929 | INFO     | __main__ |   reddit_comments        2,891 rows
+2026-08-18 23:00:53,929 | INFO     | __main__ |   google_play            50,016 rows
+2026-08-18 23:00:53,929 | INFO     | __main__ |   content_items          55,469 rows
+2026-08-18 23:00:53,929 | INFO     | __main__ |   source_tracking        55,469 rows
+2026-08-18 23:00:53,936 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 23:00:53,936 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 23:00:58,522 | INFO     | __main__ |   google_news            484 rows
+2026-08-18 23:00:58,523 | INFO     | __main__ |   google_news_query_tracking 209 rows
+2026-08-18 23:00:58,523 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 23:00:58,523 | INFO     | __main__ |   reddit_posts           1,850 rows
+2026-08-18 23:00:58,523 | INFO     | __main__ |   reddit_comments        2,891 rows
+2026-08-18 23:00:58,523 | INFO     | __main__ |   google_play            50,016 rows
+2026-08-18 23:00:58,523 | INFO     | __main__ |   content_items          55,469 rows
+2026-08-18 23:00:58,523 | INFO     | __main__ |   source_tracking        55,469 rows
+2026-08-18 23:00:58,529 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 23:00:58,531 | INFO     | __main__ | Idempotency check: {'first_load_new_content_items': 0, 'second_load_new_content_items': 0, 'passed': True}
+2026-08-18 23:16:36,424 | INFO     | scripts.base_collector | === Starting GooglePlay ===
+2026-08-18 23:16:38,116 | INFO     | scripts.base_collector | GooglePlay: 54469 historical records loaded for global deduplication
+2026-08-18 23:17:03,393 | INFO     | utils.storage | Saved 49463 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_play\2026-08-18\reviews.json
+2026-08-18 23:17:03,394 | INFO     | scripts.base_collector | === GooglePlay finished | existing=54469 new=14 total=54483 errors=0 pages=1 ===
+2026-08-18 23:17:03,488 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-18 23:17:08,873 | INFO     | __main__ |   google_news            484 rows
+2026-08-18 23:17:08,874 | INFO     | __main__ |   google_news_query_tracking 209 rows
+2026-08-18 23:17:08,875 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-18 23:17:08,876 | INFO     | __main__ |   reddit_posts           1,850 rows
+2026-08-18 23:17:08,877 | INFO     | __main__ |   reddit_comments        2,891 rows
+2026-08-18 23:17:08,877 | INFO     | __main__ |   google_play            50,030 rows
+2026-08-18 23:17:08,877 | INFO     | __main__ |   content_items          55,483 rows
+2026-08-18 23:17:08,877 | INFO     | __main__ |   source_tracking        55,483 rows
+2026-08-18 23:17:08,878 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db

@@ -1,0 +1,17 @@
+year,source,positive_count,negative_count,total_feedback,positive_ratio,negative_ratio,positive_negative_ratio
+2014,trustpilot,0,2,2,0.0,1.0,0.0
+2015,trustpilot,2,4,6,0.333,0.667,0.5
+2016,trustpilot,0,2,2,0.0,1.0,0.0
+2018,trustpilot,4,7,11,0.364,0.636,0.57
+2019,trustpilot,2,4,6,0.333,0.667,0.5
+2020,trustpilot,0,7,7,0.0,1.0,0.0
+2021,trustpilot,0,11,11,0.0,1.0,0.0
+2022,trustpilot,4,5,9,0.444,0.556,0.8
+2023,google_play,100096,23264,123360,0.811,0.189,4.3
+2023,trustpilot,6,6,12,0.5,0.5,1.0
+2024,google_play,236299,53166,289465,0.816,0.184,4.44
+2024,trustpilot,0,18,18,0.0,1.0,0.0
+2025,google_play,232581,45215,277796,0.837,0.163,5.14
+2025,trustpilot,6,22,28,0.214,0.786,0.27
+2026,google_play,169037,40501,209538,0.807,0.193,4.17
+2026,trustpilot,6,14,20,0.3,0.7,0.43

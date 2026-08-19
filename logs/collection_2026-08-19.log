@@ -1,0 +1,110 @@
+2026-08-19 01:05:39,493 | INFO     | __main__ | Enrichment complete — {'items_seen': 55483, 'items_enriched': 55483, 'model_version': 'rules-v1', 'sample_rows': 80, 'sample_path': 'C:\\Users\\rvcyb\\OneDrive\\Documents\\GPT_CODEX\\zomato_raw_collection\\output\\enrichment_labels_template.csv'}
+2026-08-19 01:33:05,308 | INFO     | __main__ | Enrichment complete — {'items_seen': 55483, 'items_enriched': 55483, 'model_version': 'rules-v1'}
+2026-08-19 01:33:32,002 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-19 01:33:36,266 | INFO     | __main__ |   google_news            484 rows
+2026-08-19 01:33:36,266 | INFO     | __main__ |   google_news_query_tracking 209 rows
+2026-08-19 01:33:36,266 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-19 01:33:36,266 | INFO     | __main__ |   reddit_posts           1,850 rows
+2026-08-19 01:33:36,266 | INFO     | __main__ |   reddit_comments        2,891 rows
+2026-08-19 01:33:36,266 | INFO     | __main__ |   google_play            50,030 rows
+2026-08-19 01:33:36,266 | INFO     | __main__ |   content_items          55,483 rows
+2026-08-19 01:33:36,266 | INFO     | __main__ |   source_tracking        55,483 rows
+2026-08-19 01:33:36,270 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-19 01:39:17,111 | INFO     | main | Notebook executed after database load.
+2026-08-19 01:39:41,424 | INFO     | main | Notebook executed after database load.
+2026-08-19 01:42:11,657 | INFO     | main | Notebook executed after database load.
+2026-08-19 01:43:13,600 | INFO     | main | Notebook executed after database load.
+2026-08-19 01:52:29,096 | INFO     | __main__ | Rule-based labels complete — {'items_seen': 55483, 'items_labelled': 55483, 'ruleset': 'rules-v1'}
+2026-08-19 01:52:55,068 | INFO     | __main__ | Rule-based labels complete — {'items_seen': 55483, 'items_labelled': 55483, 'ruleset': 'rules-v1'}
+2026-08-19 01:53:19,981 | INFO     | main | Notebook executed after database load.
+2026-08-19 01:55:27,760 | INFO     | main | Notebook executed after database load.
+2026-08-19 01:59:34,430 | INFO     | scripts.google_news_collector | === Starting GoogleNews ===
+2026-08-19 01:59:34,431 | INFO     | scripts.base_collector | === Starting Trustpilot ===
+2026-08-19 01:59:34,431 | INFO     | scripts.reddit_collector | === Starting Reddit ===
+2026-08-19 01:59:34,432 | INFO     | scripts.base_collector | === Starting GooglePlay ===
+2026-08-19 01:59:34,437 | INFO     | scripts.base_collector | Trustpilot: 154 historical records loaded for global deduplication
+2026-08-19 01:59:34,613 | INFO     | scripts.base_collector | GoogleNews: 897 historical records loaded for global deduplication
+2026-08-19 01:59:34,767 | INFO     | scripts.google_news_collector | Google News query: 'Zomato'
+2026-08-19 01:59:34,812 | INFO     | scripts.base_collector | Reddit: 2916 historical records loaded for global deduplication
+2026-08-19 01:59:34,818 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato'
+2026-08-19 01:59:35,889 | INFO     | scripts.base_collector | GooglePlay: 54483 historical records loaded for global deduplication
+2026-08-19 01:59:36,757 | INFO     | utils.storage | Saved 0 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\trustpilot\2026-08-19\reviews.json
+2026-08-19 01:59:36,757 | INFO     | scripts.base_collector | === Trustpilot finished | existing=154 new=0 total=154 errors=0 pages=0 ===
+2026-08-19 01:59:36,827 | INFO     | scripts.google_news_collector | Google News query: 'Zomato complaint'
+2026-08-19 01:59:37,440 | INFO     | utils.storage | Saved 2 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-19\articles.json
+2026-08-19 01:59:37,492 | INFO     | utils.storage | Saved 3 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-19\query_matches.json
+2026-08-19 01:59:37,493 | INFO     | scripts.base_collector | === GoogleNews finished | existing=897 new=2 total=899 errors=0 pages=2 ===
+2026-08-19 01:59:38,466 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato complaint'
+2026-08-19 01:59:39,585 | WARNING  | scripts.reddit_collector | Reddit RSS rate limit reached (429); switching to Google News RSS fallback. Retry-After=later
+2026-08-19 01:59:41,861 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato'
+2026-08-19 01:59:43,889 | INFO     | scripts.reddit_collector | Reddit r/delhi search: 'Zomato complaint'
+2026-08-19 01:59:45,528 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato'
+2026-08-19 01:59:47,986 | INFO     | scripts.reddit_collector | Reddit r/mumbai search: 'Zomato complaint'
+2026-08-19 01:59:49,654 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato'
+2026-08-19 01:59:51,774 | INFO     | scripts.reddit_collector | Reddit r/bangalore search: 'Zomato complaint'
+2026-08-19 01:59:53,855 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato'
+2026-08-19 01:59:55,905 | INFO     | scripts.reddit_collector | Reddit r/hyderabad search: 'Zomato complaint'
+2026-08-19 01:59:57,548 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato'
+2026-08-19 01:59:59,905 | INFO     | scripts.reddit_collector | Reddit r/chennai search: 'Zomato complaint'
+2026-08-19 02:00:01,400 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato'
+2026-08-19 02:00:04,063 | INFO     | scripts.reddit_collector | Reddit r/kolkata search: 'Zomato complaint'
+2026-08-19 02:00:05,215 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato'
+2026-08-19 02:00:07,651 | INFO     | scripts.reddit_collector | Reddit r/pune search: 'Zomato complaint'
+2026-08-19 02:00:09,487 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato'
+2026-08-19 02:00:11,128 | INFO     | scripts.reddit_collector | Reddit r/food search: 'Zomato complaint'
+2026-08-19 02:00:13,101 | INFO     | utils.storage | Saved 9 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-19\posts.json
+2026-08-19 02:00:13,129 | INFO     | utils.storage | Saved 9 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-19\comments.json
+2026-08-19 02:00:13,130 | INFO     | scripts.reddit_collector | Reddit comments: existing=2891 new=9 total=2900
+2026-08-19 02:00:13,130 | INFO     | scripts.base_collector | === Reddit finished | existing=2916 new=9 total=2925 errors=0 pages=7 ===
+2026-08-19 02:07:58,172 | INFO     | utils.storage | Saved 849981 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_play\2026-08-19\reviews.json
+2026-08-19 02:07:58,201 | INFO     | scripts.base_collector | === GooglePlay finished | existing=54483 new=849981 total=904464 errors=0 pages=1 ===
+2026-08-19 02:07:59,156 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-19 02:11:02,981 | INFO     | __main__ |   google_news            486 rows
+2026-08-19 02:11:02,984 | INFO     | __main__ |   google_news_query_tracking 212 rows
+2026-08-19 02:11:02,984 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-19 02:11:02,984 | INFO     | __main__ |   reddit_posts           1,859 rows
+2026-08-19 02:11:02,984 | INFO     | __main__ |   reddit_comments        2,900 rows
+2026-08-19 02:11:02,984 | INFO     | __main__ |   google_play            900,011 rows
+2026-08-19 02:11:02,985 | INFO     | __main__ |   content_items          905,484 rows
+2026-08-19 02:11:02,985 | INFO     | __main__ |   source_tracking        905,484 rows
+2026-08-19 02:11:02,989 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-19 02:13:36,914 | INFO     | __main__ | Rule-based labels complete — {'items_seen': 905484, 'items_labelled': 905484, 'ruleset': 'rules-v1'}
+2026-08-19 02:14:57,112 | INFO     | __main__ | Notebook executed after database load.
+2026-08-19 02:23:13,261 | INFO     | main | Notebook executed after database load.
+2026-08-19 02:27:43,487 | INFO     | main | Notebook executed after database load.
+2026-08-19 12:17:39,982 | INFO     | scripts.google_news_collector | === Starting GoogleNews ===
+2026-08-19 12:17:39,984 | INFO     | scripts.base_collector | === Starting GooglePlay ===
+2026-08-19 12:17:39,983 | INFO     | scripts.base_collector | === Starting Trustpilot ===
+2026-08-19 12:17:39,983 | INFO     | scripts.reddit_collector | === Starting Reddit ===
+2026-08-19 12:17:40,014 | INFO     | scripts.base_collector | Trustpilot: 154 historical records loaded for global deduplication
+2026-08-19 12:17:40,115 | INFO     | scripts.base_collector | GoogleNews: 899 historical records loaded for global deduplication
+2026-08-19 12:17:40,117 | INFO     | scripts.google_news_collector | Google News query: 'Zomato'
+2026-08-19 12:17:40,150 | INFO     | scripts.base_collector | Reddit: 2925 historical records loaded for global deduplication
+2026-08-19 12:17:40,152 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato'
+2026-08-19 12:17:41,214 | INFO     | utils.storage | Saved 0 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\trustpilot\2026-08-19\reviews.json
+2026-08-19 12:17:41,222 | INFO     | scripts.base_collector | === Trustpilot finished | existing=154 new=0 total=154 errors=0 pages=0 ===
+2026-08-19 12:17:41,981 | INFO     | scripts.google_news_collector | Google News query: 'Zomato complaint'
+2026-08-19 12:17:42,486 | INFO     | utils.storage | Saved 9 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-19\articles.json
+2026-08-19 12:17:42,523 | INFO     | utils.storage | Saved 14 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_news\2026-08-19\query_matches.json
+2026-08-19 12:17:42,524 | INFO     | scripts.base_collector | === GoogleNews finished | existing=899 new=7 total=906 errors=0 pages=2 ===
+2026-08-19 12:17:43,734 | INFO     | scripts.reddit_collector | Reddit r/india search: 'Zomato complaint'
+2026-08-19 12:18:26,608 | WARNING  | scripts.reddit_collector | Reddit RSS rate limit reached (429); switching to Google News RSS fallback. Retry-After=later
+2026-08-19 12:18:27,928 | INFO     | utils.storage | Saved 10 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-19\posts.json
+2026-08-19 12:19:00,132 | INFO     | utils.storage | Saved 10 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\reddit\2026-08-19\comments.json
+2026-08-19 12:19:00,190 | INFO     | scripts.reddit_collector | Reddit comments: existing=2900 new=1 total=2901
+2026-08-19 12:19:00,207 | INFO     | scripts.base_collector | === Reddit finished | existing=2925 new=1 total=2926 errors=0 pages=1 ===
+2026-08-19 12:19:00,784 | INFO     | scripts.base_collector | GooglePlay: 904464 historical records loaded for global deduplication
+2026-08-19 12:19:41,887 | INFO     | utils.storage | Saved 850129 records to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\raw\google_play\2026-08-19\reviews.json
+2026-08-19 12:19:41,920 | INFO     | scripts.base_collector | === GooglePlay finished | existing=904464 new=148 total=904612 errors=0 pages=1 ===
+2026-08-19 12:19:43,013 | INFO     | __main__ | Loading JSON data into C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-19 12:21:59,030 | INFO     | __main__ |   google_news            493 rows
+2026-08-19 12:21:59,054 | INFO     | __main__ |   google_news_query_tracking 222 rows
+2026-08-19 12:21:59,054 | INFO     | __main__ |   trustpilot             85 rows
+2026-08-19 12:21:59,055 | INFO     | __main__ |   reddit_posts           1,860 rows
+2026-08-19 12:21:59,055 | INFO     | __main__ |   reddit_comments        2,901 rows
+2026-08-19 12:21:59,055 | INFO     | __main__ |   google_play            900,159 rows
+2026-08-19 12:21:59,055 | INFO     | __main__ |   content_items          905,641 rows
+2026-08-19 12:21:59,055 | INFO     | __main__ |   source_tracking        905,641 rows
+2026-08-19 12:21:59,069 | INFO     | __main__ | Done — database saved to C:\Users\rvcyb\OneDrive\Documents\GPT_CODEX\zomato_raw_collection\data\db\Zomato.db
+2026-08-19 12:24:11,680 | INFO     | __main__ | Rule-based labels complete — {'items_seen': 905641, 'items_labelled': 905641, 'ruleset': 'rules-v1'}
+2026-08-19 12:25:11,123 | INFO     | __main__ | Notebook executed after database load.

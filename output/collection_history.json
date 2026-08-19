@@ -1,0 +1,849 @@
+{
+  "runs": [
+    {
+      "run_id": "baseline-20260819-v3",
+      "recorded_at": "2026-08-18T20:00:22.381286+00:00",
+      "sources": {
+        "google_news": {
+          "raw_record_count": 897,
+          "unique_id_count": 484,
+          "duplicate_count": 413,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_news\\2026-08-17\\articles.json",
+              "count": 441,
+              "unique_count": 441,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_news\\2026-08-18\\articles.json",
+              "count": 456,
+              "unique_count": 456,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 456,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\google_news\\2026-08-18\\articles.json"
+        },
+        "trustpilot": {
+          "raw_record_count": 154,
+          "unique_id_count": 85,
+          "duplicate_count": 69,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-17\\reviews.json",
+              "count": 72,
+              "unique_count": 72,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-18\\reviews.json",
+              "count": 82,
+              "unique_count": 82,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 82,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\trustpilot\\2026-08-18\\reviews.json"
+        },
+        "reddit_posts": {
+          "raw_record_count": 2916,
+          "unique_id_count": 1850,
+          "duplicate_count": 1066,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\posts.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\posts.json",
+              "count": 1665,
+              "unique_count": 1665,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 1665,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\reddit\\2026-08-18\\posts.json"
+        },
+        "reddit_comments": {
+          "raw_record_count": 2891,
+          "unique_id_count": 2891,
+          "duplicate_count": 0,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\comments.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\comments.json",
+              "count": 1640,
+              "unique_count": 1640,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 1640,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\reddit\\2026-08-18\\comments.json"
+        },
+        "google_play": {
+          "raw_record_count": 54483,
+          "unique_id_count": 50030,
+          "duplicate_count": 4453,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_play\\2026-08-17\\reviews.json",
+              "count": 5020,
+              "unique_count": 5020,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_play\\2026-08-18\\reviews.json",
+              "count": 49463,
+              "unique_count": 49463,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 49463,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\google_play\\2026-08-18\\reviews.json"
+        }
+      },
+      "database_counts": {
+        "google_news": 484,
+        "trustpilot": 85,
+        "reddit_posts": 1850,
+        "reddit_comments": 2891,
+        "google_play": 50030,
+        "content_items": 55483,
+        "source_tracking": 55483
+      }
+    },
+    {
+      "run_id": "20260818T200331Z",
+      "recorded_at": "2026-08-18T20:03:36.271194+00:00",
+      "sources": {
+        "google_news": {
+          "raw_record_count": 897,
+          "unique_id_count": 484,
+          "duplicate_count": 413,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_news\\2026-08-17\\articles.json",
+              "count": 441,
+              "unique_count": 441,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_news\\2026-08-18\\articles.json",
+              "count": 456,
+              "unique_count": 456,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 456,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\google_news\\2026-08-18\\articles.json"
+        },
+        "trustpilot": {
+          "raw_record_count": 154,
+          "unique_id_count": 85,
+          "duplicate_count": 69,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-17\\reviews.json",
+              "count": 72,
+              "unique_count": 72,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-18\\reviews.json",
+              "count": 82,
+              "unique_count": 82,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 82,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\trustpilot\\2026-08-18\\reviews.json"
+        },
+        "reddit_posts": {
+          "raw_record_count": 2916,
+          "unique_id_count": 1850,
+          "duplicate_count": 1066,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\posts.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\posts.json",
+              "count": 1665,
+              "unique_count": 1665,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 1665,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\reddit\\2026-08-18\\posts.json"
+        },
+        "reddit_comments": {
+          "raw_record_count": 2891,
+          "unique_id_count": 2891,
+          "duplicate_count": 0,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\comments.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\comments.json",
+              "count": 1640,
+              "unique_count": 1640,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 1640,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\reddit\\2026-08-18\\comments.json"
+        },
+        "google_play": {
+          "raw_record_count": 54483,
+          "unique_id_count": 50030,
+          "duplicate_count": 4453,
+          "snapshot_count": 2,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_play\\2026-08-17\\reviews.json",
+              "count": 5020,
+              "unique_count": 5020,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_play\\2026-08-18\\reviews.json",
+              "count": 49463,
+              "unique_count": 49463,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 49463,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\google_play\\2026-08-18\\reviews.json"
+        }
+      },
+      "database_counts": {
+        "google_news": 484,
+        "google_news_query_tracking": 209,
+        "trustpilot": 85,
+        "reddit_posts": 1850,
+        "reddit_comments": 2891,
+        "google_play": 50030,
+        "content_items": 55483,
+        "source_tracking": 55483
+      }
+    },
+    {
+      "run_id": "20260818T203759Z",
+      "recorded_at": "2026-08-18T20:43:36.951300+00:00",
+      "sources": {
+        "google_news": {
+          "raw_record_count": 899,
+          "unique_id_count": 486,
+          "duplicate_count": 413,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_news\\2026-08-17\\articles.json",
+              "count": 441,
+              "unique_count": 441,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_news\\2026-08-18\\articles.json",
+              "count": 456,
+              "unique_count": 456,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_news\\2026-08-19\\articles.json",
+              "count": 2,
+              "unique_count": 2,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 2,
+          "new_output_count": 2,
+          "last_file": "data\\raw\\google_news\\2026-08-19\\articles.json"
+        },
+        "trustpilot": {
+          "raw_record_count": 154,
+          "unique_id_count": 85,
+          "duplicate_count": 69,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-17\\reviews.json",
+              "count": 72,
+              "unique_count": 72,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-18\\reviews.json",
+              "count": 82,
+              "unique_count": 82,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json",
+              "count": 0,
+              "unique_count": 0,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 0,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json"
+        },
+        "reddit_posts": {
+          "raw_record_count": 2925,
+          "unique_id_count": 1859,
+          "duplicate_count": 1066,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\posts.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\posts.json",
+              "count": 1665,
+              "unique_count": 1665,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-19\\posts.json",
+              "count": 9,
+              "unique_count": 9,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 9,
+          "new_output_count": 9,
+          "last_file": "data\\raw\\reddit\\2026-08-19\\posts.json"
+        },
+        "reddit_comments": {
+          "raw_record_count": 2900,
+          "unique_id_count": 2900,
+          "duplicate_count": 0,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\comments.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\comments.json",
+              "count": 1640,
+              "unique_count": 1640,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-19\\comments.json",
+              "count": 9,
+              "unique_count": 9,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 9,
+          "new_output_count": 9,
+          "last_file": "data\\raw\\reddit\\2026-08-19\\comments.json"
+        },
+        "google_play": {
+          "raw_record_count": 904464,
+          "unique_id_count": 900011,
+          "duplicate_count": 4453,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_play\\2026-08-17\\reviews.json",
+              "count": 5020,
+              "unique_count": 5020,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_play\\2026-08-18\\reviews.json",
+              "count": 49463,
+              "unique_count": 49463,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_play\\2026-08-19\\reviews.json",
+              "count": 849981,
+              "unique_count": 849981,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 849981,
+          "new_output_count": 849981,
+          "last_file": "data\\raw\\google_play\\2026-08-19\\reviews.json"
+        }
+      },
+      "database_counts": {
+        "google_news": 486,
+        "google_news_query_tracking": 212,
+        "trustpilot": 85,
+        "reddit_posts": 1859,
+        "reddit_comments": 2900,
+        "google_play": 900011,
+        "content_items": 905484,
+        "source_tracking": 905484
+      }
+    },
+    {
+      "run_id": "20260819T062014Z",
+      "recorded_at": "2026-08-19T06:20:15.416588+00:00",
+      "sources": {
+        "google_news": {
+          "raw_record_count": 171,
+          "unique_id_count": 171,
+          "duplicate_count": 0,
+          "snapshot_count": 1,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_news\\2026-08-19\\articles.json",
+              "count": 171,
+              "unique_count": 171,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 171,
+          "new_output_count": 171,
+          "last_file": "data\\raw\\google_news\\2026-08-19\\articles.json"
+        },
+        "trustpilot": {
+          "raw_record_count": 1,
+          "unique_id_count": 1,
+          "duplicate_count": 0,
+          "snapshot_count": 1,
+          "snapshots": [
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json",
+              "count": 1,
+              "unique_count": 1,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 1,
+          "new_output_count": 1,
+          "last_file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json"
+        },
+        "reddit_posts": {
+          "raw_record_count": 158,
+          "unique_id_count": 158,
+          "duplicate_count": 0,
+          "snapshot_count": 1,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-19\\posts.json",
+              "count": 158,
+              "unique_count": 158,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 158,
+          "new_output_count": 158,
+          "last_file": "data\\raw\\reddit\\2026-08-19\\posts.json"
+        },
+        "reddit_comments": {
+          "raw_record_count": 158,
+          "unique_id_count": 158,
+          "duplicate_count": 0,
+          "snapshot_count": 1,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-19\\comments.json",
+              "count": 158,
+              "unique_count": 158,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 158,
+          "new_output_count": 158,
+          "last_file": "data\\raw\\reddit\\2026-08-19\\comments.json"
+        },
+        "google_play": {
+          "raw_record_count": 900,
+          "unique_id_count": 900,
+          "duplicate_count": 0,
+          "snapshot_count": 1,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_play\\2026-08-19\\reviews.json",
+              "count": 900,
+              "unique_count": 900,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 900,
+          "new_output_count": 900,
+          "last_file": "data\\raw\\google_play\\2026-08-19\\reviews.json"
+        }
+      },
+      "database_counts": {
+        "google_news": 171,
+        "google_news_query_tracking": 176,
+        "trustpilot": 1,
+        "reddit_posts": 158,
+        "reddit_comments": 158,
+        "google_play": 900,
+        "content_items": 1388,
+        "source_tracking": 1388
+      }
+    },
+    {
+      "run_id": "20260819T064942Z",
+      "recorded_at": "2026-08-19T06:54:11.686265+00:00",
+      "sources": {
+        "google_news": {
+          "raw_record_count": 906,
+          "unique_id_count": 493,
+          "duplicate_count": 413,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_news\\2026-08-17\\articles.json",
+              "count": 441,
+              "unique_count": 441,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_news\\2026-08-18\\articles.json",
+              "count": 456,
+              "unique_count": 456,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_news\\2026-08-19\\articles.json",
+              "count": 9,
+              "unique_count": 9,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 9,
+          "new_output_count": 7,
+          "last_file": "data\\raw\\google_news\\2026-08-19\\articles.json"
+        },
+        "trustpilot": {
+          "raw_record_count": 154,
+          "unique_id_count": 85,
+          "duplicate_count": 69,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-17\\reviews.json",
+              "count": 72,
+              "unique_count": 72,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-18\\reviews.json",
+              "count": 82,
+              "unique_count": 82,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json",
+              "count": 0,
+              "unique_count": 0,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 0,
+          "new_output_count": 0,
+          "last_file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json"
+        },
+        "reddit_posts": {
+          "raw_record_count": 2926,
+          "unique_id_count": 1860,
+          "duplicate_count": 1066,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\posts.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\posts.json",
+              "count": 1665,
+              "unique_count": 1665,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-19\\posts.json",
+              "count": 10,
+              "unique_count": 10,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 10,
+          "new_output_count": 1,
+          "last_file": "data\\raw\\reddit\\2026-08-19\\posts.json"
+        },
+        "reddit_comments": {
+          "raw_record_count": 2901,
+          "unique_id_count": 2901,
+          "duplicate_count": 0,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\reddit\\2026-08-17\\comments.json",
+              "count": 1251,
+              "unique_count": 1251,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-18\\comments.json",
+              "count": 1640,
+              "unique_count": 1640,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\reddit\\2026-08-19\\comments.json",
+              "count": 10,
+              "unique_count": 10,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 10,
+          "new_output_count": 1,
+          "last_file": "data\\raw\\reddit\\2026-08-19\\comments.json"
+        },
+        "google_play": {
+          "raw_record_count": 904612,
+          "unique_id_count": 900159,
+          "duplicate_count": 4453,
+          "snapshot_count": 3,
+          "snapshots": [
+            {
+              "file": "data\\raw\\google_play\\2026-08-17\\reviews.json",
+              "count": 5020,
+              "unique_count": 5020,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_play\\2026-08-18\\reviews.json",
+              "count": 49463,
+              "unique_count": 49463,
+              "duplicate_count": 0
+            },
+            {
+              "file": "data\\raw\\google_play\\2026-08-19\\reviews.json",
+              "count": 850129,
+              "unique_count": 850129,
+              "duplicate_count": 0
+            }
+          ],
+          "last_output_count": 850129,
+          "new_output_count": 148,
+          "last_file": "data\\raw\\google_play\\2026-08-19\\reviews.json"
+        }
+      },
+      "database_counts": {
+        "google_news": 493,
+        "google_news_query_tracking": 222,
+        "trustpilot": 85,
+        "reddit_posts": 1860,
+        "reddit_comments": 2901,
+        "google_play": 900159,
+        "content_items": 905641,
+        "source_tracking": 905641
+      }
+    }
+  ],
+  "latest": {
+    "run_id": "20260819T064942Z",
+    "recorded_at": "2026-08-19T06:54:11.686265+00:00",
+    "sources": {
+      "google_news": {
+        "raw_record_count": 906,
+        "unique_id_count": 493,
+        "duplicate_count": 413,
+        "snapshot_count": 3,
+        "snapshots": [
+          {
+            "file": "data\\raw\\google_news\\2026-08-17\\articles.json",
+            "count": 441,
+            "unique_count": 441,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\google_news\\2026-08-18\\articles.json",
+            "count": 456,
+            "unique_count": 456,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\google_news\\2026-08-19\\articles.json",
+            "count": 9,
+            "unique_count": 9,
+            "duplicate_count": 0
+          }
+        ],
+        "last_output_count": 9,
+        "new_output_count": 7,
+        "last_file": "data\\raw\\google_news\\2026-08-19\\articles.json"
+      },
+      "trustpilot": {
+        "raw_record_count": 154,
+        "unique_id_count": 85,
+        "duplicate_count": 69,
+        "snapshot_count": 3,
+        "snapshots": [
+          {
+            "file": "data\\raw\\trustpilot\\2026-08-17\\reviews.json",
+            "count": 72,
+            "unique_count": 72,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\trustpilot\\2026-08-18\\reviews.json",
+            "count": 82,
+            "unique_count": 82,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json",
+            "count": 0,
+            "unique_count": 0,
+            "duplicate_count": 0
+          }
+        ],
+        "last_output_count": 0,
+        "new_output_count": 0,
+        "last_file": "data\\raw\\trustpilot\\2026-08-19\\reviews.json"
+      },
+      "reddit_posts": {
+        "raw_record_count": 2926,
+        "unique_id_count": 1860,
+        "duplicate_count": 1066,
+        "snapshot_count": 3,
+        "snapshots": [
+          {
+            "file": "data\\raw\\reddit\\2026-08-17\\posts.json",
+            "count": 1251,
+            "unique_count": 1251,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\reddit\\2026-08-18\\posts.json",
+            "count": 1665,
+            "unique_count": 1665,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\reddit\\2026-08-19\\posts.json",
+            "count": 10,
+            "unique_count": 10,
+            "duplicate_count": 0
+          }
+        ],
+        "last_output_count": 10,
+        "new_output_count": 1,
+        "last_file": "data\\raw\\reddit\\2026-08-19\\posts.json"
+      },
+      "reddit_comments": {
+        "raw_record_count": 2901,
+        "unique_id_count": 2901,
+        "duplicate_count": 0,
+        "snapshot_count": 3,
+        "snapshots": [
+          {
+            "file": "data\\raw\\reddit\\2026-08-17\\comments.json",
+            "count": 1251,
+            "unique_count": 1251,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\reddit\\2026-08-18\\comments.json",
+            "count": 1640,
+            "unique_count": 1640,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\reddit\\2026-08-19\\comments.json",
+            "count": 10,
+            "unique_count": 10,
+            "duplicate_count": 0
+          }
+        ],
+        "last_output_count": 10,
+        "new_output_count": 1,
+        "last_file": "data\\raw\\reddit\\2026-08-19\\comments.json"
+      },
+      "google_play": {
+        "raw_record_count": 904612,
+        "unique_id_count": 900159,
+        "duplicate_count": 4453,
+        "snapshot_count": 3,
+        "snapshots": [
+          {
+            "file": "data\\raw\\google_play\\2026-08-17\\reviews.json",
+            "count": 5020,
+            "unique_count": 5020,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\google_play\\2026-08-18\\reviews.json",
+            "count": 49463,
+            "unique_count": 49463,
+            "duplicate_count": 0
+          },
+          {
+            "file": "data\\raw\\google_play\\2026-08-19\\reviews.json",
+            "count": 850129,
+            "unique_count": 850129,
+            "duplicate_count": 0
+          }
+        ],
+        "last_output_count": 850129,
+        "new_output_count": 148,
+        "last_file": "data\\raw\\google_play\\2026-08-19\\reviews.json"
+      }
+    },
+    "database_counts": {
+      "google_news": 493,
+      "google_news_query_tracking": 222,
+      "trustpilot": 85,
+      "reddit_posts": 1860,
+      "reddit_comments": 2901,
+      "google_play": 900159,
+      "content_items": 905641,
+      "source_tracking": 905641
+    }
+  }
+}
