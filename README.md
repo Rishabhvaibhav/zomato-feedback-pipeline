@@ -174,25 +174,17 @@ jupyter notebook data_exploration.ipynb
 
 ### Google Play — Yearly Review Volume
 
-2023–2026 tracked: negative share has stayed in a fairly tight **16–19%** band each year — 2026 (year to date): **169,037 positive** vs **40,501 negative** (19.3% negative).
-
 ![Google Play feedback by year](docs/charts/google_play_feedback.png)
 
 ### Trustpilot — Yearly Review Volume
-
-Consistently the **highest negative share** of the four sources. 2025 recorded its highest-ever complaint volume — **22 negative** vs **6 positive** (78.6% negative) — and four separate years (2014, 2016, 2020, 2021) show **100% negative**, though on very small review counts.
 
 ![Trustpilot feedback by year](docs/charts/trustpilot_feedback.png)
 
 ### Google News — Broad Coverage vs Complaint Coverage
 
-2026 (year to date): **136 broad** `Zomato` articles vs **27** `Zomato complaint` articles → complaint ratio **~20%**. Note that 2021, 2022, 2024 and 2025 currently show complaint-article counts only, with **0** recorded for the broad query — this is a known data-quality gap, flagged in [Limitations](#-limitations--responsible-use).
-
 ![Google News coverage vs complaints](docs/charts/google_news_coverage.png)
 
 ### Reddit — Yearly Feedback Volume (India-focused subreddits)
-
-Complaint **rate** (not volume) peaked in **2018** — 10 complaints out of 47 feedback items (**21.3%**) — even though raw complaint *volume* is far higher in recent years (e.g. 117 complaints in 2024) simply because overall Reddit activity has grown sharply since 2022.
 
 ![Reddit feedback by year](docs/charts/reddit_feedback.png)
 
@@ -214,12 +206,7 @@ All rendered table outputs are also available in [`docs/output_tables.md`](docs/
 
 ##  Business Recommendations
 
-> **Recommended wording for any external-facing slide:** *"This source and year show a higher negative signal in public feedback, so this journey should be investigated first."* This keeps every finding honest — a signal for investigation, not a verdict on the business.
-
-1. **Trustpilot's negative share is the highest and rising** (78.6% in 2025) — this is the clearest signal in the whole dataset and should be the first source read line-by-line for delivery delay, refund and support-escalation themes.
-2. **Google Play's negative share is stable and much lower** (16–19% across 2023–2026) — expected, since app-store reviewers skew toward regular users — but still worth a periodic scan of 1–3 star text for payment/login/crash themes.
-3. **Reddit's complaint rate has been trending down since its 2018 peak** (21.3% → single digits in 2021–2025) even as raw activity has grown — a good-news signal worth validating with a manual read, since it runs counter to the Trustpilot trend.
-4. **Google News complaint spikes** should always be read against the actual headlines before escalation — coverage can spike for reasons unrelated to day-to-day service quality, and the broad-query gap in several years (see above) should be fixed before this source is used in a formal report.
+> *"This source and year show a higher negative signal in public feedback, so this journey should be investigated first."* This keeps every finding honest — a signal for investigation, not a verdict on the business.
 
 ---
 
@@ -233,9 +220,5 @@ python main.py --pipeline
 
 Set the project folder as **Start in**. Review `logs/collection_<date>.log` and `output/collection_history.json` after each run.
 
----
-
-
-**Built for repeatable, auditable, India-focused Zomato consumer research — no AI labelling, full raw-data history, and one command to refresh everything.**
 
 </div>
