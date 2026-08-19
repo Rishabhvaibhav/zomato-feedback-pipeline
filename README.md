@@ -60,14 +60,6 @@ Most "scrape and chart" scripts answer a question for a single day. This pipelin
 ## 🏗️ Architecture
 
 ```mermaid
-config:
-  layout: fixed
-  theme: default
-  look: handDrawn
-  fontFamily: '''Open Sans Variable'', sans-serif'
-  themeVariables:
-    fontFamily: '''Open Sans Variable'', sans-serif'
----
 flowchart LR
     S1["Google News"] --> C["Parallel collectors"]
     S2["Google Play"] --> C
@@ -81,9 +73,6 @@ flowchart LR
     L --> RULE["Rule-based labels"]
     RULE --> A["Year-wise analysis notebook"]
     A --> O["CSV tables + interactive Plotly charts"]
-
-    linkStyle 0 stroke:#ffffff
-    linkStyle 1 stroke:#ffffff
 ```
 
 ### End-to-end pipeline flow
